@@ -6,9 +6,8 @@ Monorepo que integra los repositorios de backend y frontend de Noshy como submó
 
 ```
 noshy/
-├── apps/
-│   ├── backend/   → https://github.com/maybeimder/noshy-backend
-│   └── frontend/  → https://github.com/maybeimder/noshy-frontend
+├── backend/   → https://github.com/maybeimder/noshy-backend
+└── frontend/  → https://github.com/maybeimder/noshy-frontend
 ```
 
 ## Clonar el monorepo
@@ -34,7 +33,7 @@ git submodule update --remote --merge
 Cada carpeta en `apps/` es un repositorio git independiente con su propio historial y remoto.
 
 ```bash
-cd apps/backend
+cd backend
 git checkout -b mi-rama
 # ... cambios ...
 git push origin mi-rama
@@ -43,7 +42,7 @@ git push origin mi-rama
 Luego, desde la raíz del monorepo, registra el nuevo commit del submódulo:
 
 ```bash
-cd ../..
-git add apps/backend
+cd ..
+git add backend
 git commit -m "chore: bump backend submodule"
 ```

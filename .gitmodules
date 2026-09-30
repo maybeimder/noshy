@@ -1,6 +1,6 @@
 [submodule "apps/backend"]
-	path = apps/backend
+	path = backend
 	url = https://github.com/maybeimder/noshy-backend.git
 [submodule "apps/frontend"]
-	path = apps/frontend
+	path = frontend
 	url = https://github.com/maybeimder/noshy-frontend.git

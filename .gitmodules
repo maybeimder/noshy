@@ -1,6 +1,8 @@
-[submodule "apps/backend"]
+[submodule "backend"]
 	path = backend
 	url = https://github.com/maybeimder/noshy-backend.git
-[submodule "apps/frontend"]
+	branch = dev
+[submodule "frontend"]
 	path = frontend
 	url = https://github.com/maybeimder/noshy-frontend.git
+	branch = dev

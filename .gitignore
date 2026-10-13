@@ -1,3 +1,10 @@
+<<<<<<< Updated upstream
 graphify-*
 .graphifyignore
 CLAUDE.md
+=======
+graphify-out
+ref
+CLAUDE.md
+DESIGN.md
+>>>>>>> Stashed changes
